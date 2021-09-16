@@ -2,4 +2,6 @@ Hello World!
 
 1. Fast forward commit 
 
+// Both commits kept
 2. Commit with conflict
+2. Brach - commit with conflict
