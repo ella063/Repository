@@ -1,6 +1,7 @@
 Hello World!
 
-1. Fast forward commit 
+1. Fast forward commit
+test intellij
 
 // Both commits kept
 2. Commit with conflict
