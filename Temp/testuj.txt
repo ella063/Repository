@@ -1,3 +1,5 @@
 Hello World!
 
 1. Fast forward commit 
+
+2. Commit with conflict
