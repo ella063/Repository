@@ -62,13 +62,14 @@ public class Loops4b {
         System.out.println("Liczby z zakresu podzielne przez dzielnik");
         boolean numbersExist = false;
         for (int i=min; i<=max; i++) {
-            int shouldPrint = 0;
+            boolean shouldPrint = true;
             for (int d : dividers) {
                 if (i%d!=0) {
-                    shouldPrint++;
+                    shouldPrint = false;
+                    break;
                 }
             }
-            if (shouldPrint == 0) {
+            if (shouldPrint) {
                 System.out.println(i);
                 numbersExist = true;
             }
