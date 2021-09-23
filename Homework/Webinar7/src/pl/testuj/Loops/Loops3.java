@@ -20,13 +20,7 @@ public class Loops3 {
     }
 
     public static void printHelloWorld() {
-        boolean print = true;
-        while (print) {
-            int number = userDefinedNumber();
-            if (number == 0) {
-                print = false;
-                break;
-            }
+        while (userDefinedNumber() >= 0) {
             System.out.println("Hello World");
         }
 
