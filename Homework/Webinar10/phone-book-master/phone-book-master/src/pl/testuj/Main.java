@@ -50,12 +50,7 @@ public class Main {
         kontaktyList.add(mobileContact1);
         kontaktyList.add(workContact1);
         kontaktyList.add(privateContact1);
-
-        for (PhoneContact kontakt : kontaktyList) {
-            kontakt.send();
-        }
-
-
+        kontaktyList.forEach(kontakt -> kontakt.send());
 
     }
 }
