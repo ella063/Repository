@@ -15,6 +15,9 @@ i na każdym kontakcie wywołać metodę print()
 
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -40,6 +43,19 @@ public class Main {
         for (PhoneContact kontakt : kontakty) {
             kontakt.print();
         }
+
+        System.out.println("\nHOMEWORK 11");
+
+        ArrayList<PhoneContact> kontaktyList = new ArrayList<>();
+        kontaktyList.add(mobileContact1);
+        kontaktyList.add(workContact1);
+        kontaktyList.add(privateContact1);
+
+        for (PhoneContact kontakt : kontaktyList) {
+            kontakt.send();
+        }
+
+
 
     }
 }
