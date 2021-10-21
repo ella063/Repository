@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Ela/Documents/bootcamp/Repository/Repository/Homework/Webinar14/src">
+        <classes>
+            <class name="pl.testuj.test.GetTitle"></class>
+            <class name="pl.testuj.test.GetNumbers"></class>
+            <class name="pl.testuj.test.VerifyLogin"></class>
+            <class name="pl.testuj.test.VerifyPrice"></class>
+            <class name="pl.testuj.test.VerifyDragDrop"></class>
+        </classes>
+    </test>
+</suite>
