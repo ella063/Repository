@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Shop Tests">
+    <test verbose="2" preserve-order="true"
+          name="Test all TCs">
+        <classes>
+            <class name="sampleShop.homePage.HomePageTest">
+                <methods>
+                    <include name="checkCategoriesInMenu"/>
+                    <exclude name="fakeTest"/>
+                </methods>
+            </class>
+            <class name="sampleShop.productDetailsPage.ProductDetailsTest">
+                <methods>
+                    <include name="orderElement"/>
+                    <include name="orderNumberOfElements"/>
+                    <include name="orderElementsAndVerifyCart"/>
+                    <exclude name="thisMethodWillFail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
